@@ -17,9 +17,6 @@ Shows a small movable bar of item icons. Each icon is the item's bag
 artwork with the TOTAL amount you currently carry in backpack + bags
 printed on top (like a WeakAura icon).
 
-The tracker is HIDDEN after every login or /reload. Left-click the
-minimap button to show it.
-
 Minimap button
 --------------
 - Left-click  : show / hide the tracker bar
@@ -52,9 +49,3 @@ Saved data (per character)
 --------------------------
 Tracked item list (including lock flags), bar position, scale and
 minimap-button angle.
-Visibility is intentionally NOT saved: the bar always starts hidden.
-
-API notes
----------
-Written only against the 1.12.1 Lua 5.0 client. No Ace3, no C_* APIs,
-no GetCursorInfo, no C_Timer, no SetSize.
