@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: SimpleItemTracker
+## Notes: WeakAura-style bag-icon tracker for farmed items. Drag items onto the bar, watch stack totals.
+## Author: SimpleItemTracker
+## Version: 1.1.0
+## SavedVariablesPerCharacter: SimpleItemTrackerDB
+SimpleItemTracker.lua
